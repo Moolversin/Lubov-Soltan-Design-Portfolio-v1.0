@@ -89,9 +89,13 @@ section {
 	background-color: transparent;
 	border-color: transparent;
 }
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand  {
 	color: #565959;
 	letter-spacing: 0.1em;
+}
+
+.navbar-brand a:hover {
+	color: #6DC9C9;
 }
 
 .navbar-default ul.nav > li > a:hover {
