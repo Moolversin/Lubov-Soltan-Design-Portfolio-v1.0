@@ -30,6 +30,7 @@ h5,
 h6 {
 	font-weight: 200;
 	letter-spacing: 0.4px;
+	line-height: 1.4em;
 	font-family: "Raleway", Sans-serif;
 	color: #565959;
 }
@@ -84,19 +85,19 @@ section {
 /*--------------------
 2. Navigation
 --------------------*/
-
+/*--------------------
+background on small screens
+--------------------*/
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
+	background-color: #fff;
 }
 .navbar-default .navbar-brand  {
 	color: #565959;
 	letter-spacing: 0.1em;
 }
 
-.navbar-brand a:hover {
-	color: #6DC9C9;
-}
 
 .navbar-default ul.nav > li > a:hover {
 	color: #6DC9C9;
@@ -123,10 +124,14 @@ collapsed navbar burger lines
 /*--------------------
 collapsed navbar
 --------------------*/
-.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:focus {
 	background-color: #ffffff;
-	color:#6DC9C9;
 }
+.navbar-toggle:hover {
+	border-color: #6DC9C9;
+	background-color: #fff;
+}
+
 .navbar-default .nav li a {
     font-family: "Raleway",sans-serif;
     text-transform: uppercase;
@@ -281,7 +286,7 @@ figure.effect-bubba img {
 }
 
 figure.effect-bubba:hover img {
-	opacity: 0.8;
+	opacity: 0.5;
 }
 
 figure.effect-bubba figcaption::before,
@@ -450,7 +455,7 @@ footer p a span {
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
+    background-color: #fff;
     border-color: #6DC9C9;
 }
 
@@ -460,7 +465,7 @@ button hover color
 --------------------*/
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #75F4FF;
+    background-color: #fff;
 }
 
 .btn {
@@ -487,7 +492,7 @@ button hover color
 
 .btn-xl {
     color: #fff;
-     background-color: #726FB9;
+    background-color: #fff;
     border-color: #726FB9;
     font-family: "Robot",sans-serif;
     text-transform: uppercase;
