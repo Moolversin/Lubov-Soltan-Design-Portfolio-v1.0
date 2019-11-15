@@ -42,6 +42,7 @@ p {
 	line-height: 28px;
 	letter-spacing: 0.2px;
 	color: #565959;
+	text-indent: 5%;
 }
 
 /*--------------------
@@ -98,16 +99,10 @@ background on small screens
 	letter-spacing: 0.1em;
 }
 
-
 .navbar-default ul.nav > li > a:hover {
 	color: #6DC9C9;
 }
-/*--------------------
-bottom border navbar
---------------------*/
-.navbar-default .navbar-collapse {
-	border-color: #565959;
-}
+
 /*--------------------
 collapsed navbar background and border
 --------------------*/
@@ -115,18 +110,21 @@ collapsed navbar background and border
 	background-color: #fff;
 	border-color: #565959;
 }
+
 /*--------------------
 collapsed navbar burger lines
 --------------------*/
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #565959;
 }
+
 /*--------------------
 collapsed navbar
 --------------------*/
 .navbar-default .navbar-toggle:focus {
 	background-color: #ffffff;
 }
+
 .navbar-toggle:hover {
 	border-color: #6DC9C9;
 	background-color: #fff;
