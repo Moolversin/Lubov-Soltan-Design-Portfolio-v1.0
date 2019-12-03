@@ -69,7 +69,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-	padding: 3vh 0 3vh;
+	padding: 1vh 0 1vh;
 }
 
 
@@ -167,7 +167,7 @@ Sections
 --------------------*/
 
 .section-title {
-	padding-bottom: 30px;
+	padding-bottom: 1vh;
 }
 
 .section-title h2 {
@@ -179,7 +179,7 @@ Sections
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 33px;
-	margin: 25px 100px 30px 100px;
+	margin: 1vh;
 }
 
 .mz-module .section-title {
@@ -218,7 +218,7 @@ Sections
 --------------------*/
 
 section#contact form {
-    width: 60%;
+    width: 90%;
     margin: 15px auto;
 }
 
@@ -252,6 +252,21 @@ margin-bottom: 25px;
     margin-right: 5px;
 }
 
+.contact-form-field-name {
+	text-align: left;
+	font-size: 14px;
+	color: #565959;
+	font-weight: bold;
+	text-indent: 13px;
+}
+
+.contact-row {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 /*--------------------
 5. Footer
 --------------------*/
@@ -262,9 +277,9 @@ margin-bottom: 25px;
 footer {
     padding: 10px;
     background-color: #F7F7F7;
-		position: fixed;
 		width: 100%;
 		bottom: 0;
+		position: fixed;
 }
 
 footer p {
@@ -322,7 +337,7 @@ button hover color
 --------------------*/
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #fff;
+    background-color: #6DC9C9;
 }
 
 .btn {
@@ -343,14 +358,14 @@ button hover color
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid transparent;
+    border: 1px solid #6DC9C9;
     border-radius: 4px;
 }
 
 .btn-xl {
     color: #fff;
     background-color: #fff;
-    border-color: #726FB9;
+    border-color: #6DC9C9;
     font-family: "Robot",sans-serif;
     text-transform: uppercase;
     font-weight: 700;
