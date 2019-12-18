@@ -215,6 +215,7 @@ section {
   height: auto;
 	transition: .5s ease;
 	backface-visibility: hidden;
+	border-radius: 2%;
 }
 
 .middle {
