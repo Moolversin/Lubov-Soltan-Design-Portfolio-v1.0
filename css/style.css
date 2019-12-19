@@ -56,9 +56,16 @@ p {
 /*--------------------
 Links hover
 --------------------*/
+a {
+	color: #6DC9C9;
+	text-decoration: none;
+	font-size: 17px;
+}
+
 a:hover, a:focus, a:active, a.active {
-    color: #6DC9C9;
+    color: #9FF2F2;
 		text-decoration: none;
+		font-size: 17px;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
