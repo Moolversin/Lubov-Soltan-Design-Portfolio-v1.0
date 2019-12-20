@@ -1,21 +1,8 @@
-/*------------------------------------------------------------------
-
-Project:	Treviso - One page multi purpose page
-Version:	1.0
-Last change:	17/08/2015 [...]
-Designed by:	MOOZ Themes / www.MOOZthemes.com
-Primary use:	One page
-
-/*--------------------
-Import Google Fonts
---------------------*/
 
 /* main font for menu. */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 
-/*--------------------
-1. General
---------------------*/
+/* General */
 
 body {
 	margin: 0px;
@@ -52,10 +39,8 @@ p {
 	color: #565959;
 }
 
+/* Links, hover */
 
-/*--------------------
-Links hover
---------------------*/
 a {
 	color: #6DC9C9;
 	text-decoration: none;
@@ -78,12 +63,9 @@ a, a:hover, a:focus, a:active, a.active {
     background: none;
 }
 
-/*--------------------
-Navigation
---------------------*/
-/*--------------------
-background on small screens
---------------------*/
+/* Navigation */
+
+/* background on small screens */
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
@@ -98,24 +80,18 @@ background on small screens
 	color: #6DC9C9;
 }
 
-/*--------------------
-collapsed navbar background and border
---------------------*/
+/* collapsed navbar background and border */
 .navbar-default .navbar-toggle {
 	background-color: #fff;
 	border-color: #565959;
 }
 
-/*--------------------
-collapsed navbar burger lines
---------------------*/
+/* collapsed navbar burger lines */
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #565959;
 }
 
-/*--------------------
-collapsed navbar
---------------------*/
+/* collapsed navbar */
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	color: #6DC9C9;
 }
@@ -167,9 +143,7 @@ collapsed navbar
   }
 }
 
-/*--------------------
-Sections
---------------------*/
+/* Sections */
 
 .section-title {
 	padding-bottom: 1vh;
@@ -195,9 +169,7 @@ section {
 	padding: 5vh 0 5vh 0;
 }
 
-/*--------------------
-4.3. Portfolio
---------------------*/
+/* Portfolio */
 
 .row {
 	padding: 0;
@@ -264,9 +236,7 @@ section {
 	margin-left: 1em;
 }
 
-/*--------------------
-4.7. Contacts
---------------------*/
+/* 4.7. Contacts */
 
 section#contact form {
     width: 90%;
@@ -318,9 +288,7 @@ margin-bottom: 25px;
 	margin-right: 10%;
 }
 
-/*--------------------
-5. Footer
---------------------*/
+/* Footer */
 #footer {
 	padding-bottom: 0;
 	padding-top: 10vh;
@@ -371,9 +339,7 @@ footer p a span {
 	font-size: 25px;
 }
 
-/*--------------------
-7. Components
---------------------*/
+/* Components */
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
@@ -383,9 +349,7 @@ footer p a span {
 }
 
 
-/*--------------------
-button hover color
---------------------*/
+/* button hover color */
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
     background-color: #6DC9C9;
@@ -423,54 +387,4 @@ button hover color
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
-}
-
-/* Back to top button
----------------------------------- */
-#back-top {
-    position: fixed;
-    z-index: 1000;
-    bottom: 40px;
-    right: 50px;
-}
-#back-top a {
-    width: 60px;
-    height: 60px;
-    display: block;
-    text-align: center;
-    font: 11px/100% Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #FFFFFF;
-    background: #A9A9B1;
-    /* background color transition */
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    transition: 1s;
-}
-#back-top a:hover {
-    background: #75F4FF;
-}
-/* arrow icon (span tag) */
-#back-top i {
-    margin-top: 15px;
-    font-size: 28px;
-}
-
-@media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
-#back-top {
-    position: fixed;
-    bottom: 10px;
-    right: 30px;
-}
-#back-top a {
-    width: 40px;
-    height: 40px;
-}
-#back-top i {
-    margin-top: 7px;
-    font-size: 20px;
-}
 }
