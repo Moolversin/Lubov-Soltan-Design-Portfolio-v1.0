@@ -60,12 +60,14 @@ a {
 	color: #6DC9C9;
 	text-decoration: none;
 	font-size: 17px;
+	font-weight: 500;
 }
 
 a:hover, a:focus, a:active, a.active {
     color: #9FF2F2;
 		text-decoration: none;
 		font-size: 17px;
+		font-weight: 500;
 }
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
