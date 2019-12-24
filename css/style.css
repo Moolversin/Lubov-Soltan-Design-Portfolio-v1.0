@@ -1,5 +1,5 @@
 
-/* main font for menu. */
+/* Main font for menu. */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 
 /* General */
@@ -65,7 +65,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 /* Navigation */
 
-/* background on small screens */
+/* Background on small screens */
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
@@ -80,18 +80,18 @@ a, a:hover, a:focus, a:active, a.active {
 	color: #6DC9C9;
 }
 
-/* collapsed navbar background and border */
+/* Collapsed navbar background and border */
 .navbar-default .navbar-toggle {
 	background-color: #fff;
 	border-color: #565959;
 }
 
-/* collapsed navbar burger lines */
+/* Collapsed navbar burger lines */
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #565959;
 }
 
-/* collapsed navbar */
+/* Collapsed navbar */
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	color: #6DC9C9;
 }
@@ -188,7 +188,7 @@ section {
 	margin-right: auto;
 }
 
-/* latest-projects at the bottom */
+/* Latest-projects at the bottom */
 .image {
   display: block;
   width: 100%;
@@ -236,7 +236,7 @@ section {
 	margin-left: 1em;
 }
 
-/* 4.7. Contacts */
+/* Contact */
 
 section#contact form {
     width: 90%;
@@ -319,7 +319,7 @@ footer p a span {
     font-weight: 700;
 }
 
-/* Style all font awesome icons */
+/* Awesome icons */
 .fa {
   padding: 10px;
   font-size: 25px;
@@ -330,7 +330,7 @@ footer p a span {
 
 }
 
-/* Add a hover effect if you want */
+/* Hover effect */
 .fa:hover {
 	color: #6DC9C9;
   opacity: 0.7;
