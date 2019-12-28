@@ -3,6 +3,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 
 /* General */
+/*
+div {
+	border: 1px solid red !important;
+}
+*/
 
 body {
 	margin: 0px;
@@ -42,7 +47,7 @@ p {
 
 a {
 	color: #6DC9C9;
-	text-decoration: none;
+	/*text-decoration: none;*/
 	font-size: 17px;
 	font-weight: 500;
 }
@@ -53,11 +58,11 @@ a:hover, a:focus, a:active, a.active {
 		font-size: 17px;
 		font-weight: 500;
 }
-
+/*
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
 }
-
+*/
 ::selection {
     text-shadow: none;
     background: none;
@@ -119,7 +124,7 @@ a, a:hover, a:focus, a:active, a.active {
 @media (min-width:768px) {
 	.navbar-default
 	{
-		background-color: transparent;
+		background-color: #ffffff;
 		padding: 40px 0 0px;
     -webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
