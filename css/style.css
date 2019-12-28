@@ -82,7 +82,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 /* Collapsed navbar background and border */
 .navbar-default .navbar-toggle {
-	background-color: #fff;
+	background-color: #ffffff;
 	border-color: #565959;
 }
 
@@ -340,8 +340,7 @@ footer p a span {
 	font-size: 25px;
 }
 
-/* Components */
-
+/* Buttons */
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
@@ -349,8 +348,6 @@ footer p a span {
     border-color: #5DC2C2;
 }
 
-
-/* button hover color */
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
     background-color: #5DC2C2;
