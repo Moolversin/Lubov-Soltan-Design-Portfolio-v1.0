@@ -47,23 +47,26 @@ p {
 /* Links, hover */
 
 a {
-	color: #6DC9C9;
-	/*text-decoration: none;*/
+	color: #00D3DB;
+	text-decoration: none;
 	font-size: 17px;
 	font-weight: 500;
 }
 
+
+
+
 a:hover, a:focus, a:active, a.active {
-    color: #5DC2C2;
+    color: #00B9C0;
 		text-decoration: none;
 		font-size: 17px;
 		font-weight: 500;
 }
-/*
+
 a, a:hover, a:focus, a:active, a.active {
     outline: 0;
 }
-*/
+
 ::selection {
     text-shadow: none;
     background: none;
@@ -83,7 +86,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 .navbar-default ul.nav > li > a:hover {
-	color: #6DC9C9;
+	color: #00D3DB;
 }
 
 /* Collapsed navbar background and border */
@@ -99,7 +102,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 /* Collapsed navbar */
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-	color: #6DC9C9;
+	color: #00D3DB;
 }
 
 .navbar-default .navbar-toggle:focus {
@@ -107,7 +110,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 .navbar-toggle:hover {
-	border-color: #6DC9C9;
+	border-color: #00D3DB;
 	background-color: #ffffff;
 }
 
@@ -116,7 +119,7 @@ a, a:hover, a:focus, a:active, a.active {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 0.1em;
     color: #565959;
     margin: 10px 15px;
     padding: 0 0 2px 0;
@@ -141,7 +144,7 @@ a, a:hover, a:focus, a:active, a.active {
 	}
 	.navbar-default .navbar-nav>.active>a {
 		border-radius: 3px;
-		color: #6DC9C9;
+		color: #00D3DB;
 	}
   .navbar-nav>li>a {
     padding-top: 15px;
@@ -162,7 +165,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 .section-title p {
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 33px;
 	margin: 1vh;
 }
@@ -179,7 +182,7 @@ section {
 /* Portfolio */
 
 .row {
-	padding-bottom: 3vh;
+	padding-bottom: 2vh;
 
 }
 .col-1-gutter {
@@ -314,7 +317,7 @@ footer p {
     color: #565959;
     margin: 0;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 footer p a {
@@ -325,6 +328,24 @@ footer p a span {
     color: #75F4FF;
     font-size: 10px;
     font-weight: 700;
+}
+
+.footer-navbar {
+	padding: 2vh;
+}
+
+.footer-navbar>a {
+	padding: 1vh;
+	color: #565959;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.footer-navbar>a:hover {
+	padding: 1vh;
+	color: #00B9C0;
+	font-weight: 400;
+	font-size: 15px;
 }
 
 /* Awesome icons */
@@ -340,7 +361,7 @@ footer p a span {
 
 /* Hover effect */
 .fa:hover {
-	color: #6DC9C9;
+	color: #00D3DB;
   opacity: 0.7;
 	text-decoration: none;
 	font-size: 25px;
@@ -377,14 +398,14 @@ footer p a span {
     -ms-user-select: none;
     user-select: none;
 		color: #fff;
-		background-color: #6DC9C9;
+		background-color: #00D3DB;
     border-radius: 4px;
 }
 
 .btn-xl {
     color: #fff;
-    background-color: #6DC9C9;
-    border-color: #6DC9C9;
+    background-color: #00D3DB;
+    border-color: #00D3DB;
     font-family: "Robot",sans-serif;
     text-transform: uppercase;
     font-weight: 700;
