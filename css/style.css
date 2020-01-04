@@ -155,7 +155,7 @@ a, a:hover, a:focus, a:active, a.active {
 /* Sections */
 
 .section-title {
-	padding-bottom: 1vh;
+	padding-bottom: 2em;
 }
 
 .section-title h2 {
@@ -167,7 +167,7 @@ a, a:hover, a:focus, a:active, a.active {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 33px;
-	margin: 1vh;
+	margin: 2em;
 }
 
 .mz-module .section-title {
@@ -182,12 +182,12 @@ section {
 /* Portfolio */
 
 .row {
-	padding-bottom: 2vh;
+	padding-bottom: 2em;
 
 }
 .col-1-gutter {
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .img-responsive {
