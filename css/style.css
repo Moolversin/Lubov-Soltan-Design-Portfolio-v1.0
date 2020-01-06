@@ -413,3 +413,23 @@ footer p a span {
     font-size: 18px;
     padding: 20px 40px;
 }
+
+#back-to-top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 2em;
+  right: 2em;
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-color: #00B9C0;
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1em; /* Some padding */
+  border-radius: 5%; /* Rounded corners */
+  font-size: 1em;
+}
+
+#back-to-top:hover {
+  background-color: #5DC2C2; /* Add a dark-grey background on hover */
+}

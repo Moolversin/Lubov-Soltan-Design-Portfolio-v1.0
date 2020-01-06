@@ -414,10 +414,33 @@
 			</footer>
 		</section>
 
-<!-- Bootstrap core JavaScript -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/SmoothScroll.js"></script>
-		<script src="js/theme-scripts.js"></script>
-	</body>
-</html>
+
+				<button onclick="topFunction()" id="back-to-top" title="Go to top">▲</button>
+
+		<!-- Bootstrap core JavaScript -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script src="js/SmoothScroll.js"></script>
+				<script src="js/theme-scripts.js"></script>
+				<script>
+				//Back to top button
+				var mybutton = document.getElementById("back-to-top");
+				// When the user scrolls down 20px from the top of the document, show the button
+				window.onscroll = function() {scrollFunction()};
+
+				function scrollFunction() {
+				  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+				    mybutton.style.display = "block";
+				  } else {
+				    mybutton.style.display = "none";
+				  }
+				}
+
+				// When the user clicks on the button, scroll to the top of the document
+				function topFunction() {
+				  document.body.scrollTop = 0;
+				  document.documentElement.scrollTop = 0;
+				}
+				</script>
+			</body>
+		</html>
