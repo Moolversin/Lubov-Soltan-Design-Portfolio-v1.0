@@ -205,8 +205,8 @@ section {
 
 /* Latest-projects at the bottom */
 .image {
-  display: block;
-  width: 100%;
+  display: inline-block;
+
 	opacity: 1;
   height: auto;
 	transition: .5s ease;
@@ -441,13 +441,15 @@ footer p a span {
 }
 
 #back-to-top:hover {
-  background-color: #5DC2C2; /* Add a dark-grey background on hover */
+  background-color: #5DC2C2;
 }
 
 .project-snippets {
 	max-width: 1000px;
 	text-align: center;
 }
+
+
 
 .outerwrap {
 	display: inline-block;
