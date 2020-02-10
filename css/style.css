@@ -11,6 +11,7 @@ div {
 
 #body {
 	font-family: "Raleway", Sans-serif;
+	min-height: 69vh;
 }
 
 h1 {
