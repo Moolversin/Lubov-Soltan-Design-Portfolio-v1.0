@@ -135,11 +135,10 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 @media (min-width:768px) {
-	.navbar-default
-	{
+	.navbar-default	{
 		background-color: #ffffff;
 		padding: 10px 0 0px;
-    -webkit-transition:padding .3s;
+		-webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
 		transition:padding .3s;
 		border:0;
@@ -156,8 +155,8 @@ a, a:hover, a:focus, a:active, a.active {
 		color: #00D3DB;
 	}
   .navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 4px;
+		padding-top: 15px;
+		padding-bottom: 4px;
   }
 }
 
@@ -194,9 +193,106 @@ section {
 	padding-bottom: 2em;
 
 }
+
+.row-designer {
+	padding: 4vh 0 4vh 0;
+}
+
 .col-1-gutter {
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+@media (min-width:768px) {
+	.col-40 {
+		display: inline-block;
+		width: 38%;
+		text-align: center;
+		background-color: #D4CBFF;
+		padding: 20px 10px 20px 10px;
+		text-transform: uppercase;
+		font-size: 20px;
+		letter-spacing: 0.1em;
+	}
+
+	.col-25 {
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		background-color: #CBFDFF;
+		padding: 20px 10px 20px 10px;
+		text-transform: uppercase;
+		font-size: 20px;
+		letter-spacing: 0.1em;
+	}
+
+	.col-25-2 {
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		background-color: #FFCBF1;
+		padding: 20px 10px 20px 10px;
+		text-transform: uppercase;
+		font-size: 20px;
+		letter-spacing: 0.1em;
+	}
+
+	.col-10 {
+		display: inline-block;
+		width: 10%;
+		text-align: center;
+		background-color: #F3FFCB;
+		padding: 20px 10px 20px 10px;
+		text-transform: uppercase;
+		font-size: 20px;
+		letter-spacing: 0.1em;
+	}
+}
+
+@media (min-width:500px) and (max-width:767px){
+	.col-40 {
+		display: inline-block;
+		width: 37%;
+		text-align: center;
+		background-color: #D4CBFF;
+		padding: 10px;
+		text-transform: uppercase;
+		font-size: 13px;
+		letter-spacing: 0.1em;
+	}
+
+	.col-25 {
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		background-color: #CBFDFF;
+		padding: 10px;
+		text-transform: uppercase;
+		font-size: 13px;
+		letter-spacing: 0.1em;
+	}
+
+	.col-25-2 {
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		background-color: #FFCBF1;
+		padding: 10px;
+		text-transform: uppercase;
+		font-size: 13px;
+		letter-spacing: 0.1em;
+	}
+
+	.col-10 {
+		display: inline-block;
+		width: 10%;
+		text-align: center;
+		background-color: #F3FFCB;
+		padding: 10px;
+		text-transform: uppercase;
+		font-size: 13px;
+		letter-spacing: 0.1em;
+	}
 }
 
 .img-responsive {
@@ -207,31 +303,30 @@ section {
 
 /* Latest-projects at the bottom */
 .image {
-  display: inline-block;
-
+  	display: inline-block;
 	opacity: 1;
-  height: auto;
+ 	height: auto;
 	transition: .5s ease;
 	backface-visibility: hidden;
 	border-radius: 2%;
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 .text {
-  color: #565959;
-  font-size: 18px;
+  	color: #565959;
+  	font-size: 18px;
 	font-weight: bold;
-  padding: 1px;
+ 	padding: 1px;
 }
 
 .latest-projects {
@@ -241,15 +336,15 @@ section {
 }
 
 .latest-projects:hover .image {
-  opacity: 0.3;
+  	opacity: 0.3;
 }
 
 .latest-projects:hover .middle {
-  opacity: 1;
+  	opacity: 1;
 }
 
 .project-description {
-  color: #565959;
+  	color: #565959;
 	margin-left: 1em;
 }
 
@@ -266,7 +361,7 @@ section#contact form {
 }
 
 .contact.form-group {
-margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 .contact .form-group input, .contact .form-group textarea {
@@ -319,7 +414,7 @@ margin-bottom: 25px;
 footer {
     padding: 10px;
     background-color: #ffffff;
-		width: 100%;
+	width: 100%;
 }
 
 footer p {
@@ -359,11 +454,11 @@ footer p a span {
 
 /* Awesome icons */
 .fa {
-  padding: 10px;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
 	color: #565959;
 
 }
@@ -371,7 +466,7 @@ footer p a span {
 /* Hover effect */
 .fa:hover {
 	color: #00D3DB;
-  opacity: 0.7;
+ 	opacity: 0.7;
 	text-decoration: none;
 	font-size: 25px;
 }
@@ -387,7 +482,7 @@ footer p a span {
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
     background-color: #00D3DB;
-		box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1),0 20px 20px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1),0 20px 20px 0 rgba(0,0,0,0.1);
 }
 
 .btn {
@@ -407,10 +502,10 @@ footer p a span {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-		color: #fff;
-		background-color: #00D3DB;
+	color: #fff;
+	background-color: #00D3DB;
     border-radius: 5px;
-		-webkit-transition-duration: 0.3s; /* Safari */
+	-webkit-transition-duration: 0.3s; /* Safari */
   	transition-duration: 0.3s;
 }
 
@@ -427,23 +522,23 @@ footer p a span {
 }
 
 #back-to-top {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 2em;
-  right: 2em;
-  z-index: 99; /* Make sure it does not overlap */
-  border: none;
-  outline: none;
-  background-color: #00B9C0;
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 1em; /* Some padding */
-  border-radius: 5%; /* Rounded corners */
-  font-size: 1em;
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 2em;
+	right: 2em;
+	z-index: 99; /* Make sure it does not overlap */
+	border: none;
+	outline: none;
+	background-color: #00B9C0;
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 1em; /* Some padding */
+	border-radius: 5%; /* Rounded corners */
+	font-size: 1em;
 }
 
 #back-to-top:hover {
-  background-color: #5DC2C2;
+  	background-color: #5DC2C2;
 }
 
 .project-snippets {
@@ -462,7 +557,6 @@ footer p a span {
 	min-width: 360px;
 	max-height: 400px;
 	max-width: 650px;
-
 	text-align: left;
 }
 
