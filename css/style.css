@@ -81,6 +81,7 @@ a, a:hover, a:focus, a:active, a.active {
 .navbar-default .navbar-brand  {
 	color: #565959;
 	letter-spacing: 0.1em;
+	padding: 0;
 }
 
 .navbar-default ul.nav > li > a:hover {
@@ -119,7 +120,7 @@ a, a:hover, a:focus, a:active, a.active {
     font-weight: 400;
     letter-spacing: 0.1em;
     color: #565959;
-    margin: 10px 15px;
+    margin: 19px 10px;
     padding: 0 0 2px 0;
 }
 
@@ -137,14 +138,14 @@ a, a:hover, a:focus, a:active, a.active {
 	.navbar-default
 	{
 		background-color: #ffffff;
-		padding: 40px 0 0px;
+		padding: 10px 0 0px;
     -webkit-transition:padding .3s;
 		-moz-transition:padding .3s;
 		transition:padding .3s;
 		border:0;
 	}
 	.navbar-default .navbar-brand {
-		font-size: 2em;
+		font-size: 15px;
 		-webkit-transition:all .3s;
 		-moz-transition:all .3s;
 		transition:all .3s
