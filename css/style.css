@@ -208,9 +208,9 @@ section {
 }
 
 @media (min-width:768px) {
-	.col-40 {
+	.col-30 {
 		display: inline-block;
-		width: 38%;
+		width: 33%;
 		text-align: center;
 		background-color: #D4CBFF;
 		padding: 20px 10px 20px 10px;
@@ -219,9 +219,9 @@ section {
 		letter-spacing: 0.1em;
 	}
 
-	.col-30 {
+	.col-30-1 {
 		display: inline-block;
-		width: 30%;
+		width: 33%;
 		text-align: center;
 		background-color: #CBFDFF;
 		padding: 20px 10px 20px 10px;
@@ -232,7 +232,7 @@ section {
 
 	.col-30-2 {
 		display: inline-block;
-		width: 30%;
+		width: 33%;
 		text-align: center;
 		background-color: #FFCBF1;
 		padding: 20px 10px 20px 10px;
