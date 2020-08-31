@@ -1,6 +1,6 @@
 
 /* Main font for menu. */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400|Open Sans:200,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400|Open Sans: 200,300,400,500,700,900);
 
 /* General */
 /*
@@ -42,7 +42,7 @@ h6 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
-	font-weight: 300;
+	font-weight: 200;
 	line-height: 1.8em;
 	letter-spacing: 0.2px;
 	color: #565959;
