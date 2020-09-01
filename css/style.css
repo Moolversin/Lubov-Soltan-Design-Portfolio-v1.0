@@ -1,13 +1,39 @@
+:root {
+	/* colors */
+	--imperial-red: #EF233C;
+	--dark-grey: #2B2D42;
+
+	--white-00: #FFFFFF;
+	--white-10: #D9DEE5;
+	--black-00: #020202;
+	--black-10: #0A0B0E;
+	--black-20: #0D0F13;
+	--black-30: #282B2F;
+	--black-40: #7B7C7E;
+	--black-50: #BDBDBE;
+	--grey-00: #80839E;
+	--grey-10: #ACB2D1;
+	--grey-20: #D8DBEE;
+	--grey-30: #E5E7F4;
+	--grey-40: #F2F3F9;
+	--grey-50: #FCFCFF;
+	--blue-00: #5D5AC8;
+	--blue-10: #9BAFEB;
+	--blue-20: #CBD0E9;
+	--blue-seattle: #0046AD;
+	--yellow-00: #F7E381;
+
+	/* fonts */
+	--reg: 200;
+	--med: 300;
+	--sem-bold: 500;
+	--bold: 700;
+	--x-bold: 800;
+	--black: 900;
+  }
 
 /* Main font for menu. */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400|Open Sans: 200,300,400,500,700,900);
-
-/* General */
-/*
-div {
-	border: 1px solid red !important;
-}
-*/
 
 #body {
 	font-family: "Open Sans", Sans-serif;
@@ -19,7 +45,7 @@ h1 {
 	letter-spacing: 0.1em;
 	line-height: 1.4em;
 	font-family: "Open Sans", Sans-serif;
-	color: #565959;
+	color: var(--dark-grey);
 	text-transform: uppercase;
 }
 
@@ -32,7 +58,7 @@ h6 {
 	letter-spacing: 0.4px;
 	line-height: 1.4em;
 	font-family: "Open Sans", Sans-serif;
-	color: #565959;
+	color: var(--dark-grey);
 }
 
 .h2-center {
@@ -45,7 +71,7 @@ p {
 	font-weight: 200;
 	line-height: 1.8em;
 	letter-spacing: 0.2px;
-	color: #565959;
+	color: var(--dark-grey);
 }
 
 /* Links, hover */
@@ -95,12 +121,12 @@ a, a:hover, a:focus, a:active, a.active {
 /* Collapsed navbar background and border */
 .navbar-default .navbar-toggle {
 	background-color: #ffffff;
-	border-color: #565959;
+	border-color: var(--dark-grey);
 }
 
 /* Collapsed navbar burger lines */
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #565959;
+	background-color: var(--dark-grey);
 }
 
 /* Collapsed navbar */
@@ -123,7 +149,7 @@ a, a:hover, a:focus, a:active, a.active {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.1em;
-    color: #565959;
+    color: var(--dark-grey);
     margin: 19px 10px;
     padding: 0 0 2px 0;
 }
@@ -362,7 +388,7 @@ section {
 }
 
 .text {
-  	color: #565959;
+  	color: var(--dark-grey);
   	font-size: 18px;
 	font-weight: bold;
  	padding: 1px;
@@ -383,7 +409,7 @@ section {
 }
 
 .project-description {
-  	color: #565959;
+  	color: var(--dark-grey);
 	margin-left: 1em;
 }
 
@@ -432,7 +458,7 @@ section#contact form {
 .contact-form-field-name {
 	text-align: left;
 	font-size: 14px;
-	color: #565959;
+	color: var(--dark-grey);
 	font-weight: bold;
 	text-indent: 13px;
 }
@@ -457,7 +483,7 @@ footer {
 }
 
 footer p {
-    color: #565959;
+    color: var(--dark-grey);
     margin: 0;
     font-size: 12px;
     font-weight: 400;
@@ -479,7 +505,7 @@ footer p a span {
 
 .footer-navbar>a {
 	padding: 1vh;
-	color: #565959;
+	color: var(--dark-grey);
 	font-weight: 400;
 	font-size: 15px;
 }
@@ -498,7 +524,7 @@ footer p a span {
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50%;
-	color: #565959;
+	color: var(--dark-grey);
 
 }
 
@@ -552,7 +578,7 @@ footer p a span {
     color: #fff;
     background-color: #00D3DB;
     border-color: #00D3DB;
-    font-family: "Robot",sans-serif;
+    font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 3px;
