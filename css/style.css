@@ -467,7 +467,7 @@ footer p a span {
 	z-index: 99; /* Make sure it does not overlap */
 	border: none;
 	outline: none;
-	background-color: var(--imperial-red);
+	background-color: var(--dark-grey);
 	color: white; /* Text color */
 	cursor: pointer; /* Add a mouse pointer on hover */
 	padding: 1em; /* Some padding */
@@ -476,7 +476,7 @@ footer p a span {
 }
 
 #back-to-top:hover {
-  	background-color: #5DC2C2;
+  	background-color: var(--imperial-red);
 }
 
 .project-snippets {
