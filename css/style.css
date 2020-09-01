@@ -77,14 +77,14 @@ p {
 /* Links, hover */
 
 a {
-	color: #00D3DB;
+	color: var(--imperial-red);
 	text-decoration: none;
 	font-size: 17px;
 	font-weight: 500;
 }
 
 a:hover, a:focus, a:active, a.active {
-    color: #00B9C0;
+    color:var(--imperial-red);
 		text-decoration: none;
 		font-size: 17px;
 		font-weight: 500;
@@ -109,13 +109,13 @@ a, a:hover, a:focus, a:active, a.active {
 	background-color: #ffffff;
 }
 .navbar-default .navbar-brand  {
-	color: #565959;
+	color: var(--dark-grey);
 	letter-spacing: 0.1em;
 	padding: 0;
 }
 
 .navbar-default ul.nav > li > a:hover {
-	color: #00D3DB;
+	color: var(--imperial-red);
 }
 
 /* Collapsed navbar background and border */
@@ -131,7 +131,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 /* Collapsed navbar */
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-	color: #00D3DB;
+	color: var(--imperial-red);
 }
 
 .navbar-default .navbar-toggle:focus {
@@ -139,7 +139,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 .navbar-toggle:hover {
-	border-color: #00D3DB;
+	border-color: var(--imperial-red);
 	background-color: #ffffff;
 }
 
@@ -182,7 +182,7 @@ a, a:hover, a:focus, a:active, a.active {
 	}
 	.navbar-default .navbar-nav>.active>a {
 		border-radius: 3px;
-		color: #00D3DB;
+		color: #var(--imperial-red);
 	}
   .navbar-nav>li>a {
 		padding-top: 15px;
@@ -494,7 +494,7 @@ footer p a {
 }
 
 footer p a span {
-    color: #75F4FF;
+    color: var(--imperial-red);
     font-size: 10px;
     font-weight: 700;
 }
@@ -512,7 +512,7 @@ footer p a span {
 
 .footer-navbar>a:hover {
 	padding: 1vh;
-	color: #00B9C0;
+	color: var(--imperial-red);
 	font-weight: 400;
 	font-size: 15px;
 }
@@ -530,7 +530,7 @@ footer p a span {
 
 /* Hover effect */
 .fa:hover {
-	color: #00D3DB;
+	color: var(--imperial-red);
  	opacity: 0.7;
 	text-decoration: none;
 	font-size: 25px;
@@ -540,13 +540,13 @@ footer p a span {
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #00D3DB;
-    border-color: #5DC2C2;
+    background-color: var(--imperial-red);
+    border-color: var(--imperial-red);
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
     color: #fff;
-    background-color: #00D3DB;
+    background-color: var(--imperial-red);
 	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1),0 20px 20px 0 rgba(0,0,0,0.1);
 }
 
@@ -568,7 +568,7 @@ footer p a span {
     -ms-user-select: none;
     user-select: none;
 	color: #fff;
-	background-color: #00D3DB;
+	background-color: var(--imperial-red);
     border-radius: 5px;
 	-webkit-transition-duration: 0.3s; /* Safari */
   	transition-duration: 0.3s;
@@ -576,8 +576,8 @@ footer p a span {
 
 .btn-xl {
     color: #fff;
-    background-color: #00D3DB;
-    border-color: #00D3DB;
+    background-color: var(--imperial-red);
+    border-color: var(--imperial-red);
     font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -594,7 +594,7 @@ footer p a span {
 	z-index: 99; /* Make sure it does not overlap */
 	border: none;
 	outline: none;
-	background-color: #00B9C0;
+	background-color: var(--imperial-red);
 	color: white; /* Text color */
 	cursor: pointer; /* Add a mouse pointer on hover */
 	padding: 1em; /* Some padding */
