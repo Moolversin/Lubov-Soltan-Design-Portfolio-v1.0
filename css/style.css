@@ -240,7 +240,9 @@ section {
 }
 
 .text-center-horiz  {
-	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* Latest-projects at the bottom */
 .image {
