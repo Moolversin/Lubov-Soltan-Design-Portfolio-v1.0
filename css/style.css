@@ -239,6 +239,9 @@ section {
 	margin-right: auto;
 }
 
+.text-center-horiz  {
+	vertical-align: middle;
+}
 /* Latest-projects at the bottom */
 .image {
   	display: inline-block;
