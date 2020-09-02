@@ -239,11 +239,13 @@ section {
 	margin-right: auto;
 }
 
+/* to center items horizontally in a row or column */
 .text-center-horiz  {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 /* Latest-projects at the bottom */
 .image {
   	display: inline-block;
