@@ -219,6 +219,10 @@ section {
 
 /* Portfolio */
 
+.project-name {
+padding-left: 10px;
+}
+
 .row {
 	padding-bottom: 2em;
 
