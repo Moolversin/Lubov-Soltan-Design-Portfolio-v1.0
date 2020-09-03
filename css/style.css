@@ -2,8 +2,8 @@
 	/* colors */
 	--imperial-red: #EF233C;
 	--dark-grey: #2B2D42;
-
 	--white-00: #FFFFFF;
+
 	--white-10: #D9DEE5;
 	--black-00: #020202;
 	--black-10: #0A0B0E;
@@ -219,9 +219,6 @@ section {
 
 /* Portfolio */
 
-.project-name {
-padding-left: 10px;
-}
 
 .row {
 	padding-bottom: 2em;
@@ -495,8 +492,6 @@ footer p a span {
 	text-align: center;
 }
 
-
-
 .outerwrap {
 	display: inline-block;
 	position: relative;
@@ -521,17 +516,24 @@ footer p a span {
 .layer2 {
 	position: absolute;
 	z-index: 2;
-	background-color: #5DC2C2;
-	height: 150px;
+	background-color: var(--white-00);
+	height: 120px;
 	width: 330px;
 	top: 220px;
 	opacity: 90%;
 	right: -15px;
 }
 
+.project-name {
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	}	
+
+
 .layer2 > p {
-		position: absolute;
-		color: #ffffff;
-		top: 15px;
-		left: 22px;
+	padding-left: 20px;
+	padding-top: 0;
+	color: var(--dark-grey);
+
 }
