@@ -4,7 +4,7 @@
 	--dark-grey: #2B2D42;
 	--white-00: #FFFFFF;
 
-	--white-10: #D9DEE5;
+	--white-10: #fafcff;
 	--black-00: #020202;
 	--black-10: #0A0B0E;
 	--black-20: #0D0F13;
@@ -516,11 +516,10 @@ footer p a span {
 .layer2 {
 	position: absolute;
 	z-index: 2;
-	background-color: var(--white-00);
-	height: 120px;
+	background-color: var(--white-10);
+	height: 96px;
 	width: 330px;
 	top: 220px;
-	opacity: 90%;
 	right: -15px;
 }
 
