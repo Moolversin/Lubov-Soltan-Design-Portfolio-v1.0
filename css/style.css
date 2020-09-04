@@ -554,3 +554,41 @@ footer p a span {
 	color: var(--dark-grey);
 
 }
+
+/* Art page */
+
+.col-lg-6 {
+	padding: 7px;
+  }
+  
+  /* Image colums size */
+  .col-md-4 {
+	padding:7px;
+  }
+
+.img-fluid {
+	width: 100%;
+  }
+
+.container-project {
+	position: relative;
+  }
+  
+  .text-block {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color: var(--white-00);
+	color: var(--black-20);
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 90%;
+  }
+
+  .zoom {
+	transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+	transform: scale(0.98); 
+  }
