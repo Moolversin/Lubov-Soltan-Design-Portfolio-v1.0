@@ -44,6 +44,10 @@
 	background-color: var(--white-00);
 }
 
+.about-me {
+	background-color: var(--grey-20);
+}
+
 h1 {
 	font-weight: 500;
 	letter-spacing: 0.1em;
@@ -506,6 +510,14 @@ footer p a span {
 	max-height: 400px;
 	max-width: 650px;
 	text-align: left;
+}
+
+.outerwrap {
+	transition: transform .2s; /* Animation */
+  }
+
+.outerwrap:hover {
+	transform: scale(0.98)
 }
 
 .layer1 {
