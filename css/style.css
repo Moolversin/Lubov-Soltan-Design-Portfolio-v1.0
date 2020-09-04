@@ -45,7 +45,9 @@
 }
 
 .about-me {
-	background-color: var(--gray-00);
+	background-color: var(--grey-00);
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 h1 {
