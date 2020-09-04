@@ -11,7 +11,7 @@
 	--black-30: #282B2F;
 	--black-40: #7B7C7E;
 	--black-50: #BDBDBE;
-	--grey-00: #80839E;
+	--grey-00: #ececf1;
 	--grey-10: #ACB2D1;
 	--grey-20: #D8DBEE;
 	--grey-30: #E5E7F4;
@@ -45,7 +45,7 @@
 }
 
 .about-me {
-	background-color: var(--grey-20);
+	background-color: var(--gray-00);
 }
 
 h1 {
