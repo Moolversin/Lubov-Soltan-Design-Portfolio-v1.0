@@ -33,7 +33,7 @@
   }
 
 /* Main font for menu. */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400|Open Sans: 200,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,OpenSans:200,300,400,500,700,900);
 
 
 
@@ -435,6 +435,9 @@ footer p a span {
 	width: 330px;
 	top: 220px;
 	right: -15px;
+	-webkit-box-shadow: 4px 4px 16px 0px rgba(50, 50, 50, 0.10);
+	-moz-box-shadow:    4px 4px 16px 0px rgba(50, 50, 50, 0.10);
+	box-shadow:         4px 4px 16px 0px rgba(50, 50, 50, 0.10);
 }
 
 .project-name {
