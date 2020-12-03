@@ -186,7 +186,7 @@ a, a:hover, a:focus, a:active, a.active {
 		font-size: 15px;
 		-webkit-transition:all .3s;
 		-moz-transition:all .3s;
-		transition:all .3s
+		transition:all .3s;
     	padding: 0px;
 	}
 	.navbar-default .navbar-nav>.active>a {
