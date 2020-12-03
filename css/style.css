@@ -403,7 +403,7 @@ footer p a span {
 	position: relative;
 	z-index: 0;
 	background-color: var(--white-00);
-	min-height: 380px;
+	min-height: 320px;
 	min-width: 360px;
 	max-height: 400px;
 	max-width: 650px;
