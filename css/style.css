@@ -36,12 +36,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,OpenSans:200,300,400,500,700,900);
 
 
-
+#header {
+	background-color: var(--white-10);
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
 
 #body {
-	font-family: "Open Sans", Sans-serif;
 	min-height: 69vh;
 	background-color: var(--white-00);
+	padding-top: 50px;
 }
 
 .about-me {
@@ -76,12 +80,12 @@ h6 {
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
 	font-size: 17px;
 	font-weight: 200;
 	line-height: 1.8em;
 	letter-spacing: 0.2px;
 	color: var(--dark-grey);
+	
 }
 
 /* Links, hover */
@@ -100,10 +104,7 @@ a:hover, a:focus, a:active, a.active {
 		font-weight: 500;
 }
 
-a, a:hover, a:focus, a:active, a.active {
-    outline: 0;
 
-}
 
 ::selection {
     text-shadow: none;
@@ -111,12 +112,37 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 /* Navigation */
+/*New navbar*/
+.navbar-light .navbar-nav .nav-link {
+	color: var(--dark-grey);
+	font-family: "OpenSans", sans-serif;
+	font-weight: lighter;
+}
+
+/* navbar icons */
+
+.navbar-brand .on-hover {
+	display: none;
+}
+
+.navbar-brand .off-hover {
+	display: inline;
+}
+
+.navbar-brand:hover .on-hover {
+	display: inline;
+}
+
+.navbar-brand:hover .off-hover {
+	display: none;
+}
 
 /* Background on small screens */
 .navbar-default {
 	background-color: var(--white-00);
 	border-color: transparent;
 }
+
 .navbar-default .navbar-brand  {
 	color: var(--dark-grey);
 	letter-spacing: 0.1em;
@@ -125,6 +151,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 .navbar-default ul.nav > li > a:hover {
 	color: var(--imperial-red);
+	font-size: 15px;
 }
 
 /* Collapsed navbar background and border */
@@ -141,6 +168,8 @@ a, a:hover, a:focus, a:active, a.active {
 /* Collapsed navbar */
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	color: var(--imperial-red);
+	font-size: 15px;
+
 }
 
 .navbar-default .navbar-toggle:focus {
@@ -150,6 +179,7 @@ a, a:hover, a:focus, a:active, a.active {
 .navbar-toggle:hover {
 	border-color: var(--imperial-red);
 	background-color: var(--white-00);
+	font-size: 15px;
 }
 
 .navbar-default .nav li a {
@@ -245,9 +275,7 @@ section {
 }
 
 .img-responsive {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
 }
 
 /* to center items horizontally in a row or column */
@@ -256,6 +284,21 @@ section {
 	justify-content: center;
 	align-items: center;
 }
+
+
+/*Project */
+
+
+.demo-text {
+	display: flex;
+	align-items: center;
+}
+
+.app-video {
+	min-width: 320px;
+	max-width: 450px;
+}
+
 
 /* Footer */
 
