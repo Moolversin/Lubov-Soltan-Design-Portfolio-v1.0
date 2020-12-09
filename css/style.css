@@ -49,7 +49,7 @@
 }
 
 .about-me {
-	background-color: var(--grey-00);
+	background-color: var(--white-10);
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -286,8 +286,7 @@ section {
 }
 
 
-/*Project */
-
+/*Header */
 
 .demo-text {
 	display: flex;
@@ -308,7 +307,7 @@ section {
 
 footer {
     padding: 10px;
-    background-color: var(--grey-00);
+    background-color: var(--white-10);
 	width: 100%;
 }
 
