@@ -438,6 +438,10 @@ footer p a span {
 	padding-bottom: 20px;
 }
 
+.project-image {
+	max-width: 720px;
+}
+
 .project-snippets {
 	max-width: 1140px;
 	text-align: center;
@@ -487,9 +491,13 @@ footer p a span {
 
 .project-name {
 	padding-left: 20px;
-	margin-top: 20px;
+	margin-top: 17px;
 	margin-bottom: 0px;
 	}	
+
+.project-description {
+	padding-left: 20px;
+}
 
 
 .layer2 > p {
