@@ -260,9 +260,8 @@ section {
 /* Portfolio */
 
 
-.row {
-	padding-bottom: 2em;
-
+.art {
+	padding: 10px;
 }
 
 .row-designer {
@@ -435,6 +434,10 @@ footer p a span {
   	background-color: var(--imperial-red);
 }
 
+.project {
+	padding-bottom: 20px;
+}
+
 .project-snippets {
 	max-width: 1140px;
 	text-align: center;
@@ -475,8 +478,8 @@ footer p a span {
 	background-color: var(--white-00);
 	height: 96px;
 	width: 330px;
-	top: 220px;
-	right: -15px;
+	bottom: 30px;
+	right: 5px;
 	-webkit-box-shadow: 4px 4px 16px 0px rgba(50, 50, 50, 0.10);
 	-moz-box-shadow:    4px 4px 16px 0px rgba(50, 50, 50, 0.10);
 	box-shadow:         4px 4px 16px 0px rgba(50, 50, 50, 0.10);
@@ -498,14 +501,6 @@ footer p a span {
 
 /* Art page */
 
-.col-lg-6 {
-	padding: 7px;
-  }
-  
-  /* Image colums size */
-  .col-md-4 {
-	padding:7px;
-  }
 
 .container-project {
 	position: relative;
