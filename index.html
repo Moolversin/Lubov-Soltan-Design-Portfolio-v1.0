@@ -21,46 +21,36 @@
 		<link rel="manifest" href="/site.webmanifest">
 		<title>Lubov Soltan — Designer</title>
 		<!-- Bootstrap CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
 
 	<body id="page-top">
+		
 		<!-- Navigation -->
-
-		<nav class="navbar sticky-top navbar-default">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-top-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</button>
-					<div class="navbar-brand">
-						<a href="/index.html"><img src="/logo.png">LUBOV SOLTAN</a>
-					</div>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-top-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="/index.html">DESIGN</a>
-						</li>
-						<li>
-							<a href="/art.html">ART</a>
-						</li>
-						<li>
-							<a href="/files/lubov-soltan-designer-resume.pdf" target="_blank">Resume</a>
-						</li>
-					</ul>
-				</div>
-				<!-- /.navbar-collapse -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+			<a class="navbar-brand" href="/index.html">
+				<img class="on-hover" src="/navbar-logo-red.svg">
+				<img class="off-hover" src="/navbar-logo.svg">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+				  <a class="nav-link" href="/index.html">Design <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="/art.html">Art</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="/files/lubov-soltan-designer-resume.pdf" target="_blank">Resume</a>
+				</li>
+			  </ul>
 			</div>
-			<!-- /.container-fluid -->
-		</nav>
+		  </nav>
 
 		<section class="body py-5">
 
@@ -82,235 +72,315 @@
 		<section id="body">
 
 			<div class="container">
-				<div class="row project-snippets">
+				<div class="row projects">
 
-					<div class="outerwrap">
-						<div class="layer1">
-						   <a href="/walletifai-app.html">
-							   <img src="/images/work/project-snippets/walletifai-app.png" alt="Walletifai app screens" class="img-responsive">
-						   </a>
-						</div>
-						<div class="layer2">
-							<h4 class="project-name"><b>Walletifai</b></h4>
-							<p>UI/UX Design  · Fintech</p>
-					   </div>
-				   </div>
-
-					<div class="outerwrap">
-						 <div class="layer1">
-							<a href="/gocon-canada-2020.html">
-								<img src="/images/work/project-snippets/project-gocon-2020.jpg" alt="GoCon 2020 projects with Mountie Gopher and balloons" class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							 <h4 class="project-name"><b>GOCON 2020</b></h4>
-							 <p>Concept · Illustration</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/walletifai-app.html">
+									<img src="/images/work/project-snippets/walletifai-app.png" alt="Walletifai app screens" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/gocon-canada-2020.html">
+									<h4 class="project-name"><b>Walletifai app</b></h4>
+									<p class="project-description">UI/UX DESIGN  · Fintech</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div class="outerwrap ">
-						 <div class="layer1">
-							<a href="/nutmeg-soccer.html">
-								<img src="/images/work/project-snippets/nutmeg-soccer-branding.jpg" alt="Nutmeg Soccer.org logo" class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							<h4 class="project-name"><b>NUTMEG SOCCER TORONTO</b></h4>
-							<p>Brand Identity · Collateral</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/gocon-canada-2020.html">
+									<img src="/images/work/project-snippets/project-gocon-2020.jpg" alt="GoCon 2020 projects with Mountie Gopher and balloons" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/gocon-canada-2020.html">
+									<h4 class="project-name"><b>GoCon 2020</b></h4>
+									<p class="project-description">CONCEPT · Conference</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div class="outerwrap ">
-						<div class="layer1">
-							<a href="/gaida-search-app.html">
-								<img src="/images/work/project-snippets/gaida-search-app.jpg" alt="Gaida wallet app design" class="img-responsive">
-							</a>
-						</div>
-						<div class="layer2">
-							<h4 class="project-name"><b>GAIDA.AI</b></h4>
-							<p>Concept · UI/UX Design</p>
-						</div>
-				   </div>
-
-					<div class="outerwrap">
-						<div class="layer1">
-							<a href="/enoti-logo.html">
-								<img src="/images/work/project-snippets/project-gaida-enoti-logo.gif" alt="White Enoti logo on bright background." class="img-responsive">
-							</a>
-						</div>
-						<div class="layer2">
-							<h4 class="project-name"><b>ENOTI.BG</b></h4>
-							<p>Brand Identity</p>
-						</div>
-				   </div>
-
-				   <div class="outerwrap">
-					<div class="layer1">
-						<a href="/gaida-branding.html">
-							<img src="/images/work/project-snippets/gaida-stationery.jpg" alt="Gaida.ai branding." class="img-responsive">
-						</a>
-					</div>
-					<div class="layer2">
-						<h4 class="project-name"><b>GAIDA.AI</b></h4>
-						<p>Brand Identity · UI Design</p>
-					</div>
-			   </div>
-
-					<div class="outerwrap">
-						 <div class="layer1">
-							<a href="/gaida-email.html">
-								<img src="/images/work/project-snippets/gaida-email template-mobile-360x260.gif" alt="Newsletter scroll animation" class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							<h4 class="project-name"><b>GAIDA.AI</b></h4>
-							<p>Email Template · UI/UX Design</p>
-						</div>
-					</div>
-				
-					<div class="outerwrap">
-						 <div class="layer1">
-							<a href="/enoti-mascots.html">
-								<img src="/images/work/project-snippets/project-gaida-enoti-mascot.jpg" alt="Cute raccoons playing around." class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							<h4 class="project-name"><b>ENOTI.BG</b></h4>
-							<p>Mascot Design · Illustration</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/nutmeg-soccer.html">
+									<img src="/images/work/project-snippets/nutmeg-soccer-branding.jpg" alt="Nutmeg Soccer.org logo" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/nutmeg-soccer.html">
+									<h4 class="project-name"><b>Nutmeg Soccer</b></h4>
+									<p class="project-description">BRANDING · Non-profit</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div class="outerwrap">
-						 <div class="layer1">
-							<a href="/session-it.html">
-								<img src="/images/work/project-snippets/session-technologies-website.jpg" alt="Session.it logo." class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							<h4 class="project-name"><b>SESSION.IT</b></h4>
-							<p>Brand Identity · UI/UX Design</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/gaida-search-app.html">
+									<img src="/images/work/project-snippets/gaida-search-app.jpg" alt="Gaida wallet app design" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="//gaida-search-app.html">
+									<h4 class="project-name"><b>Gaida.ai</b></h4>
+									<p class="project-description">UI/UX DESIGN · Real Estate/Tech</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div class="outerwrap">
-						 <div class="layer1">
-							<a href="/gaida-website.html">
-								<img src="/images/work/project-snippets/project-gaida-illustrations.jpg" alt="Gaida.ai website illustrations." class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							<h4 class="project-name"><b>GAIDA.AI</b></h4>
-							<p>Brand Identity · Illustration</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/enoti-logo.html">
+									<img src="/images/work/enoti-branding-logo.jpg" alt="White Enoti logo on bright background." class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/enoti-logo.html">
+									<h4 class="project-name"><b>Enoti.bg</b></h4>
+									<p class="project-description">BRANDING · Real Estate</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div class="outerwrap">
-						 <div class="layer1">
-							<a href="/gocon-canada.html">
-								<img src="/images/work/project-snippets/project-gocon-2019.jpg" alt="GoCon 2019 conference sticker photo." class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							<h4 class="project-name"><b>GOCON CANADA 2019</b></h4>
-							<p>Brand Identity · Illustration</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/gocon-canada.html">
+									<img src="/images/work/project-snippets/project-gocon-2019.jpg" alt="GoCon 2019 conference sticker photo." class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/gocon-canada.html">
+									<h4 class="project-name"><b>GoCon Canada 2019</b></h4>
+									<p class="project-description">BRANDING · Conference</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
-					<div class="outerwrap ">
-						 <div class="layer1">
-							<a href="/coming-soon.html">
-								<img src="/images/work/project-snippets/figwheel-logo.jpg" alt="Picture of stack of Figwheel's new logo for Bruce Hauman" class="img-responsive">
-							</a>
-						 </div>
-						 <div class="layer2">
-							<h4 class="project-name"><b>FIGWHEEL MAIN</b></h4>
-							<p>Brand Identity · UI/UX Design</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/gaida-branding.html">
+									<img src="/images/work/gaida-stationery.jpg" alt="Gaida.ai branding." class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/gaida-branding.html">
+									<h4 class="project-name"><b>Gaida.ai</b></h4>
+									<p class="project-description">BRANDING · Real Estate/Tech</p>
+								</a>
+							</div>
 						</div>
 					</div>
 
-				<div class="outerwrap ">
-					 <div class="layer1">
-						<a href="/dutch-clojure-days-2019.html">
-							<img src="/images/work/project-snippets/dcd-2019-logo.gif" alt="Animated logo construction for DCD 2019" class="img-responsive">
-						</a>
-					 </div>
-					 <div class="layer2">
-						<h4 class="project-name"><b>DUTCH CLOJURE DAYS 2019</b></h4>
-						<p>Brand Identity · Collateral</p>
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/dutch-clojure-days-2019.html">
+									<img src="/images/work/dcd-2019-project.png" alt="Animated logo construction for DCD 2019" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/dutch-clojure-days-2019.html">
+									<h4 class="project-name"><b>Dutch Clojure Days 2019</b></h4>
+									<p class="project-description">BRANDING · Conference</p>
+								</a>
+							</div>
+						</div>
 					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/gaida-email.html">
+									<video class="embed-responsive" src="/images/work/gaida-project-email-template.mp4" type="video/mp4" preload="auto" playsinline="" autoplay="" muted="" loop="">
+									</video>								
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/gaida-email.html">
+									<h4 class="project-name"><b>Gaida.ai</b></h4>
+									<p class="project-description">UI/UX DESIGN · Real Estate/Tech</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/enoti-mascots.html">
+									<img src="/images/work/project-snippets/project-gaida-enoti-mascot.jpg" alt="Cute raccoons playing around." class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/enoti-mascots.html">
+									<h4 class="project-name"><b>Enoti.bg</b></h4>
+									<p class="project-description">ILLUSTRATION · Real Estate</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/session-it.html">
+									<img src="/images/work/project-snippets/session-technologies-website.jpg" alt="Session.it logo." class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/session-it.html">
+									<h4 class="project-name"><b>Session.it</b></h4>
+									<p class="project-description">UI/UX DESIGN · Tech</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/coming-soon.html">
+									<img src="/images/work/project-snippets/unique-estates-app.jpg" alt="Unique Estates app" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/coming-soon.html">
+									<h4 class="project-name"><b>Unique Estates</b></h4>
+									<p class="project-description">UI/UX DESIGN · Real Estate</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/coming-soon.html">
+									<img src="/images/work/project-snippets/clojure-north-logo.jpg" alt="Clojure/North 2019 conference logo" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/coming-soon.html">
+									<h4 class="project-name"><b>Clojure/North</b></h4>
+									<p class="project-description">BRANDING · Conference</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/gaida-website.html">
+									<img src="/images/work/project-snippets/project-gaida-illustrations.jpg" alt="Gaida.ai website illustrations." class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/gaida-website.html">
+									<h4 class="project-name"><b>Gaida.ai</b></h4>
+									<p class="project-description">BRANDING · Real Estate/Tech</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/coming-soon.html">
+									<img src="/images/work/figwheel-project-logo.jpg" alt="Picture of stack of Figwheel's new logo for Bruce Hauman" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/coming-soon.html">
+									<h4 class="project-name"><b>Figwheel</b></h4>
+									<p class="project-description">BRANDING/UI DESIGN · Tech</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/coming-soon.html">
+									<img src="/images/work/project-snippets/heart-of-clojure-logo.jpg" alt="Simple monogram logo for Heart of Clojure conference in Belguim" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/coming-soon.html">
+									<h4 class="project-name"><b>Heart of Clojure</b></h4>
+									<p class="project-description">BRANDING · Conference</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/coming-soon.html">
+									<img src="/images/work/project-snippets/lambda-island-ultimate-setup.jpg" alt="Pixel art illustration of an old computer" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/coming-soon.html">
+									<h4 class="project-name"><b>Clojure Island</b></h4>
+									<p class="project-description">ILLUSTRATION · Tech</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/coming-soon.html">
+									<img src="/images/work/project-snippets/dcd-2018-venue.jpg" alt="Photo of a venue before Dutch Clojure Days 2018 conference started" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/coming-soon.html">
+									<h4 class="project-name"><b>Dutch Clojure Days 2018</b></h4>
+									<p class="project-description">BRANDING · Conference</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-9 col-sm-12 col-xs-12 project mx-auto">
+						<div class="project">
+							<div class="project-image">
+								<a href="/coming-soon.html">
+									<img src="/images/work/dcd-2017-project.png" alt="Dutch Clojure Days 2017" class="img-responsive">
+								</a>
+							</div>
+							<div class="layer2">
+								<a href="/coming-soon.html">
+									<h4 class="project-name"><b>Dutch Clojure Days 2017</b></h4>
+									<p class="project-description">BRANDING · Conference</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
 				</div>
-
-				<div class="outerwrap ">
-					 <div class="layer1">
-						<a href="/coming-soon.html">
-							<img src="/images/work/project-snippets/clojure-north-logo.jpg" alt="Clojure/North 2019 conference logo" class="img-responsive">
-						</a>
-					 </div>
-					 <div class="layer2">
-						<h4 class="project-name"><b>CLOJURE/NORTH 2019</b></h4>
-						<p>Brand Identity · Style guide</p>
-					</div>
-				</div>
-
-				<div class="outerwrap">
-					 <div class="layer1">
-						<a href="/coming-soon.html">
-							<img src="/images/work/project-snippets/unique-estates-app.jpg" alt="Unique Estates app" class="img-responsive">
-						</a>
-					 </div>
-					 <div class="layer2">
-						<h4 class="project-name"><b>UNIQUE ESTATES</b></h4>
-						<p>Concept · UI/UX Design</p>
-					</div>
-				</div>
-
-				<div class="outerwrap">
-					 <div class="layer1">
-						<a href="/coming-soon.html">
-							<img src="/images/work/project-snippets/heart-of-clojure-logo.jpg" alt="Simple monogram logo for Heart of Clojure conference in Belguim" class="img-responsive">
-						</a>
-					 </div>
-					 <div class="layer2">
-						<h4 class="project-name"><b>HEARTH OF CLOJURE</b></h4>
-						<p>Brand Identity · Style guide</p>
-					</div>
-				</div>
-
-				<div class="outerwrap">
-					 <div class="layer1">
-						<a href="/coming-soon.html">
-							<img src="/images/work/project-snippets/lambda-island-ultimate-setup.jpg" alt="Pixel art illustration of an old computer" class="img-responsive">
-						</a>
-					 </div>
-					 <div class="layer2">
-						<h4 class="project-name"><b>CLOJURE ISLAND</b></h4>
-						<p>Concept · Illustration</p>
-					</div>
-				</div>
-
-				<div class="outerwrap">
-					 <div class="layer1">
-						<a href="/coming-soon.html">
-						 	<img src="/images/work/project-snippets/dcd-2018-venue.jpg" alt="Photo of a venue before Dutch Clojure Days 2018 conference started" class="img-responsive">
-						</a>
-					 </div>
-					 <div class="layer2">
-						<h4 class="project-name"><b>DUTCH CLOJURE DAYS 2018</b></h4>
-						<p>Brand Identity · Collateral</p>
-					</div>
-				</div>
-
-				<div class="outerwrap">
-					 <div class="layer1">
-						<a href="/coming-soon.html">
-						 	<img src="/images/work/project-snippets/dcd-2017.jpg" alt="Dutch Clojure Days 2017" class="img-responsive">
-						</a>
-					 </div>
-					 <div class="layer2">
-						<h4 class="project-name"><b>DUTCH CLOJURE DAYS 2017</b></h4>
-						<p>Brand Identity · Collateral</p>
-					</div>
-				</div>
+			</div>
 
 			</div>
 		</section>
@@ -355,8 +425,8 @@
 	</section>
 
 		<!-- Bootstrap core JavaScript -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 		<script src="/js/SmoothScroll.js"></script>
 
 	</body>
