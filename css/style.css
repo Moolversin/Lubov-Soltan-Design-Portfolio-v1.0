@@ -344,14 +344,14 @@ footer p a span {
 .footer-navbar>a {
 	padding: 1vh;
 	color: var(--dark-grey);
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 15px;
 }
 
 .footer-navbar>a:hover {
 	padding: 1vh;
 	color: var(--imperial-red);
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 15px;
 }
 
@@ -373,8 +373,6 @@ footer p a span {
 	text-decoration: none;
 	font-size: 25px;
 }
-
-
 
 .project {
 	padding-bottom: 20px;
