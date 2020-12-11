@@ -374,75 +374,7 @@ footer p a span {
 	font-size: 25px;
 }
 
-/* Buttons */
-.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    color: var(--white-00);
-    background-color: var(--imperial-red);
-    border-color: var(--imperial-red);
-}
 
-.btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
-    color: var(--white-00);
-    background-color: var(--imperial-red);
-	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1),0 20px 20px 0 rgba(0,0,0,0.1);
-}
-
-.btn {
-    display: inline-block;
-    padding: 8px 20px;
-    margin: 20px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-	color: var(--white-00);
-	background-color: var(--imperial-red);
-    border-radius: 5px;
-	-webkit-transition-duration: 0.3s; /* Safari */
-  	transition-duration: 0.3s;
-}
-
-.btn-xl {
-    color: var(--white-00);
-    background-color: var(--imperial-red);
-    border-color: var(--imperial-red);
-    font-family: "Open Sans",sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 3px;
-    font-size: 18px;
-    padding: 20px 40px;
-}
-
-#back-to-top {
-	display: none; /* Hidden by default */
-	position: fixed; /* Fixed/sticky position */
-	bottom: 2em;
-	right: 2em;
-	z-index: 99; /* Make sure it does not overlap */
-	border: none;
-	outline: none;
-	background-color: var(--dark-grey);
-	color: var(--white-00); /* Text color */
-	cursor: pointer; /* Add a mouse pointer on hover */
-	padding: 1em; /* Some padding */
-	border-radius: 5%; /* Rounded corners */
-	font-size: 1em;
-}
-
-#back-to-top:hover {
-  	background-color: var(--imperial-red);
-}
 
 .project {
 	padding-bottom: 20px;
