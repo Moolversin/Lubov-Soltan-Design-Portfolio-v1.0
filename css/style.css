@@ -128,6 +128,11 @@ a:hover, a:focus, a:active, a.active {
 	font-weight: 300;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+	color: var(--imperial-red);
+	font-weight: 300;
+}
+
 /* navbar icons */
 
 .navbar-brand .on-hover {
