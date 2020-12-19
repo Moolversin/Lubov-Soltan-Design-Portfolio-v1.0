@@ -73,6 +73,9 @@ h6 {
 	color: var(--dark-grey);
 }
 
+h3 {
+	padding-top: 25px;
+}
 .h2-center {
 	text-align: center;
 }
